@@ -1,0 +1,32 @@
+.main{
+
+}
+
+header{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background-image: linear-gradient(to bottom right, rgb(167, 1, 125), rgb(0, 243, 150));
+}
+
+ul{
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px 
+}
+.card-container{
+    flex-wrap: wrap;
+}
+
+#my-portfolio-list{
+    list-style: none;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 4px 
+}
