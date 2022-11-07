@@ -15,7 +15,7 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 4px 
+    padding: 2px; 
 }
 .card-container{
     flex-wrap: wrap;
@@ -28,5 +28,7 @@ ul{
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 4px 
+    padding: 2px;
+    border:2px;
+    
 }
