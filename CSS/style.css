@@ -45,3 +45,11 @@ ul{
     padding: 2px;
     border:2px;
 }
+.container-portfolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border: 8px;
+}
