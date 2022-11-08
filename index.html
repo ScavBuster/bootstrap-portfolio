@@ -13,22 +13,24 @@
   <!-- Header -->
   <header>
     <h1>Adam Kaye</h1>
-    <p>My Personal Portfolio!</p>
+    <p>A Personal Portfolio</p>
   </header>
 
   <!-- Navbar -->
-  <ul class="nav nav-pills">
+  <ul class="nav nav-pills" id="top-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">About Me</a>
-    <li class="nav-item">
-      <a class="nav-link" href="#">My Portfolio</a>
+      <a class="nav-link" href="#about-me">About Me</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Contact Me</a>
+      <a class="nav-link" href="#skills">Skills</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="#portfolio-container">My Portfolio</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">asdasd</a>
-    </li></li>
+      <a class="nav-link" href="#contact">Contact Me</a>
+    </li>
+    
   </ul>
  <!-- Body -->
  <main>
@@ -36,7 +38,10 @@
     <div class="jumbotron jumbotron-fluid">
         <div class="container" id="jumbo-container">
           <h2 class="display-4">Welcome!</h2>
-          <img id="profile-pic" src="https://picsum.photos/300" alt="">
+          <img id="profile-pic" src="./CSS/images/me.jpg" alt=""
+          class="center"
+          width="300"
+          height="400">
           <p class="lead">Welcome to my Portfolio site! here you can browse my previous work, read about my background and even get in contact with me on all socials. Enjoy!</p>
 
         </div>
@@ -45,15 +50,20 @@
 
       <!--banner-->
       <div class="card" id="whats-new">
-        <div class="card-container">
-            <h2>Whats New</h2>
-            <p>Newly Added Works</p>
-            <ul id="newly-added-list">
-              <li><img src="https://picsum.photos/500" alt=""></li>
-              <li><img src="https://picsum.photos/500" alt=""></li>
-              <li><img src="https://picsum.photos/500" alt=""></li>
-            </ul>
-        </div>
+      
+        <div class="card-container" >
+              <h2>Newly Added Works</h2>
+            </div>
+              <div class="col-sm-12">
+                <div class="card text-center bg-dark text-white">
+                  <img class="card-img" src="./CSS/images/portfolio-1.png" alt="SEO website">
+                  <div class="card-img-overlay">
+                    <h3 class="card-title">Button Example</h3>
+                    <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                    <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+                  </div>
+                </div>
+              </div> 
       </div>
       <!-- end banner-->
       
@@ -61,48 +71,102 @@
       <div class="card">
         <div class="card-container" id="about-me">
             <h2>About Me</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio consequatur veniam sequi nam nisi repellendus autem, architecto in nobis exercitationem..</p>
-            <h3>Skills</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolore reiciendis beatae quibusdam suscipit doloremque modi ullam repellendus iusto excepturi.</p>
+            <p>My name is Adam Kaye i am an Arborist of 13 years looking to change my direction in life and turn to a career of front end coding and web develpment! i am currently studying in a front end web development bootcamp and am excited to se what this future hold for me. I hope to fill this portfolio with as much work as i possibly can and to showcase it here for you to see.
+            </p>
+            </div>
+      </div>
+
+      <div class="card">
+        <div class="card-container" id="skills">
+          <h2 id="skill-header">Skills</h2>
         </div>
+          <div>
+          <p class="quote"><strong> The Skills I am hoping to learn and improve upon include but are not limited to:</strong></p>
+          </div>
+          <div id="skill-list">
+          <ul id="skill-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JAVASCRIPT</li>
+              <li>NODE.JS</li>
+              <li>FLEXBOX</li>
+              <li>ETC</li>
+            </ul>
+          </div>
+        
       </div>
-      <div id="new-contatainer">
+      
+      <div class="container" id="portfolio-container">
         <h3>My Portfolio</h3>
-        <div class="container-portfolio">
+        <div class="container-portfolio" >
           <div class="row">
-          <div class="card" style="width: 18rem;">
-           <img src=https://picsum.photos/700 class="card-img-top" alt="...">
-           <div class="card-body">
-             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-          </div>
-          </div>
-          <div class="card" style="width: 18rem;">
-            <img src=https://picsum.photos/700 class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           </div>
-           </div>
-           <div class="card" style="width: 18rem;">
-            <img src=https://picsum.photos/700 class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-           </div>
-           </div>
-           <div class="card" style="width: 18rem;">
-            <img src=https://picsum.photos/700 class="card-img-top" alt="...">
-            <div class="card-body">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <!--card 1-->
+          <div class="col-sm-12">
+            <div class="card text-center bg-dark text-white">
+              <img class="card-img" src="./CSS/images/portfolio-1.png" alt="SEO website">
+              <div class="card-img-overlay">
+                <h3 class="card-title">Button Example</h3>
+                <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+              </div>
             </div>
-          </div>
+          </div> 
+          
+        <!--card 2-->
+          <div class="col-sm-6">
+            <div class="card text-center bg-dark text-white">
+              <img class="card-img" src="https://picsum.photos/500" alt="SEO website">
+              <div class="card-img-overlay">
+                <h3 class="card-title">Button Example</h3>
+                <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+              </div>
             </div>
+          </div> 
+          
+          <!--card 3-->
+            <div class="col-sm-6">
+              <div class="card text-center bg-dark text-white">
+                <img class="card-img" src="https://picsum.photos/500" alt="SEO website">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Button Example</h3>
+                  <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                  <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+                </div>
+              </div>
+            </div> 
            
-           
-         </div>
-        <!-- <h3>GitHub Links To Work</h3> -->
+          <!--card 4-->
+            <div class="col-sm-6">
+              <div class="card text-center bg-dark text-white">
+                <img class="card-img" src="https://picsum.photos/500" alt="SEO website">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Button Example</h3>
+                  <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                  <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+                </div>
+              </div>
+            </div> 
+
+            <!--card 5-->
+            <div class="col-sm-6">
+              <div class="card text-center bg-dark text-white">
+                <img class="card-img" src="https://picsum.photos/500" alt="SEO website">
+                <div class="card-img-overlay">
+                  <h3 class="card-title">Button Example</h3>
+                  <p class="card-text">Plain CSS and HTML were used formaking working buttons for an seo landing page</p>
+                  <a href="./CSS/images/portfolio-1.png" class="btn">link here!</a>
+                </div>
+              </div>
+            </div> 
+
+                    <!--cards end-->
+          </div>
       </div>
-    </ul>
+      </div>
+    
      
-      <div class="container">
+      <div class="container" id="contact">
       <form>
         <h3>Contact Me</h3>
         <blockquote>If you would like to get in touch with me you can, by filling out the form below</blockquote>
@@ -118,20 +182,16 @@
         <button type="submit" class="btn btn-primary">Submit</button>
       </form>
       <p> Alternatively, You can also find me on my social media pages:</p>
-   </div>
-
-   <div class="container">
-     <div class="card" style="width: 18rem;">
-      <img src="..." class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-     </div>
-     </div>
+      <ul social-list>
+        <a href="#" class="btn">Github</a>
+        <a href="#" class="btn">Facebook</a>
+        <a href="#" class="btn">LinkedIn</a>
+    </ul>
     </div>
- </main>
- <footer>
-    <h3>made by Adam Kaye
-    </h3>
+  </main>
+ <footer id="footer">
+    <h2>made by Adam Kaye
+    </h2>
   </footer>
 </body>
 
