@@ -38,9 +38,7 @@ p{
     background-color: transparent;
     text-align: center;
 }
-{
-    text-align: center;
-}
+
 #skill-list{
     list-style: none;
     display: flex;
