@@ -14,6 +14,10 @@ BOOTSTRAP 4
 
 this website landing page is ysed as a brief insight into using bootstrap in your applications to create or more easily created website.
 this also is a great exercise in specificity as overriding the SCSS from bootstrap will be necessary to create a more personalised page.
+here is the repo:
+
+here is the deployed page:
+https://scavbuster.github.io/bootstrap-portfolio/
 
 ## Setup/Installation Requirements
 
